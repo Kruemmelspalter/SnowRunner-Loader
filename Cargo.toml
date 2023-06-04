@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "loader",
+    "test-mod",
+]
+resolver = "2"
