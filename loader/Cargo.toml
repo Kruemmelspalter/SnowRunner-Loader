@@ -1,0 +1,14 @@
+[package]
+name = "loader"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ctrlc = "3.4.0"
+dll-syringe = { git = "https://github.com/OpenByteDev/dll-syringe" }
+windows = { version = "0.48.0", features = [
+    "Win32_System_Threading",
+    "Win32_Foundation",
+] }
